@@ -1,268 +1,175 @@
-# Welcome to AstraIQ Team
+# About AstraIQ
 
-Hey برو,
+**AstraIQ** is a technology company building modern digital products for businesses, creators, and ambitious teams.
 
-Welcome to **AstraIQ**.
+We design and build software that helps companies operate better, sell smarter, and move faster without being buried under technical complexity.
 
-AstraIQ is a technology organization focused on building serious, reliable, and well-designed software products. We care about clean engineering, thoughtful product decisions, and practical systems that can grow over time.
+Our focus is simple:
 
-This document is a lightweight onboarding note for new team members.
+> Build useful technology that feels clear, reliable, and powerful.
 
 ---
 
-## What We Care About
+## Who We Are
+
+AstraIQ is a product-focused software company.
+
+We care about thoughtful design, strong engineering, and practical business impact. We believe great software should not feel complicated to the people using it. It should feel natural, dependable, and built around real needs.
+
+We are starting from our local market, but our ambition is bigger.
+
+We want to build technology that can compete globally while staying connected to the problems businesses face here.
+
+---
+
+## What We Believe
 
 At AstraIQ, we believe:
 
-- Software should solve real problems.
-- Products should feel simple, even when the system behind them is complex.
-- Code should be clean, maintainable, and easy to reason about.
-- Strong engineering culture beats rushed execution.
-- Small teams can build serious products when priorities are clear.
+- Technology should make work easier, not harder.
+- Good software starts with understanding real problems.
+- Strong products need both engineering depth and user empathy.
+- Simple experiences often require serious systems behind them.
+- Small focused teams can build products with real impact.
+- Emerging markets deserve world-class tools.
 
-We are not trying to build noisy software.
+We do not build software just to add features.
 
-We are trying to build useful software.
+We build systems that help people and businesses grow.
 
 ---
 
 ## Our Mission
 
-> To build high-quality digital products and infrastructure for real businesses, starting from our local market and growing with discipline.
+> To build world-class digital products and infrastructure for businesses in emerging markets.
 
-AstraIQ is still early.
+AstraIQ exists to help businesses modernize, compete, and scale through better technology.
 
-That means every decision matters.
+We want to make advanced software more accessible, more practical, and more aligned with how real businesses operate.
 
-Every feature, every commit, every design choice, and every deployment should move the product forward.
+---
+
+## Our Vision
+
+Our long-term vision is to become a serious technology company from the region, building products that serve local needs first and scale beyond borders.
+
+We want AstraIQ to represent:
+
+- High-quality software.
+- Reliable infrastructure.
+- Clean product experiences.
+- Practical innovation.
+- Strong technical culture.
+- Trustworthy digital transformation.
+
+Not hype.
+
+Not noise.
+
+Real products. Real value.
+
+---
+
+## What We Build
+
+AstraIQ builds software products and infrastructure for modern business operations.
+
+Our work includes:
+
+- Business platforms.
+- Commerce systems.
+- Internal dashboards.
+- Automation tools.
+- Digital operations systems.
+- Web applications.
+- Scalable backend services.
+
+Each product is built with a focus on usability, reliability, and long-term maintainability.
+
+---
+
+## How We Think About Product
+
+We believe good products are not just collections of features.
+
+A good product should:
+
+- Solve a clear problem.
+- Feel easy to use.
+- Save time.
+- Reduce friction.
+- Support growth.
+- Stay reliable under pressure.
+- Respect the user’s workflow.
+
+Every product decision should answer one question:
+
+> Does this make the user’s life better?
 
 ---
 
 ## How We Work
 
-We value:
+AstraIQ works with a practical mindset.
 
-- Clear ownership.
-- Simple solutions first.
-- Practical trade-offs.
-- Fast feedback.
-- Clean pull requests.
-- Good documentation.
-- Respectful technical disagreement.
+We move step by step.
 
-We do not optimize for looking busy.
+We validate ideas.
 
-We optimize for shipping useful work.
+We build focused versions first.
+
+Then we improve based on real usage.
+
+We prefer clarity over complexity, progress over perfection, and quality over rushed output.
 
 ---
 
-## Engineering Principles
+## Our Standards
 
-### 1. Keep Scope Clear
+We care about:
 
-Before building anything, understand:
-
-- What problem are we solving?
-- Who needs this?
-- Why now?
-- What is out of scope?
-- What does “done” mean?
-
-Unclear work should be clarified before implementation.
-
----
-
-### 2. Build Small, Then Improve
-
-Prefer small, safe iterations.
-
-Avoid over-engineering early.
-
-A simple working feature is usually better than a perfect unfinished system.
-
----
-
-### 3. Protect Product Quality
-
-Every change should respect:
-
+- Product quality.
 - User experience.
 - Security.
-- Maintainability.
 - Performance.
-- Data integrity.
-- Future extensibility.
+- Clean design.
+- Reliable systems.
+- Long-term thinking.
+- Honest communication.
 
-Shipping fast is good.
-
-Shipping fragile work is not.
-
----
-
-### 4. Communicate Early
-
-Raise blockers early.
-
-Ask questions early.
-
-Share risks early.
-
-No one should disappear with unclear work.
+We want everything under AstraIQ to feel serious, useful, and trustworthy.
 
 ---
 
-## Repository Expectations
+## Why AstraIQ Exists
 
-When contributing:
+Many businesses want to grow digitally, but the available tools often feel too complex, too generic, or not built for their reality.
 
-1. Read the relevant `README.md` or documentation first.
-2. Create focused branches.
-3. Keep commits clear.
-4. Open small pull requests when possible.
-5. Explain the reason behind the change.
-6. Include screenshots or examples for UI changes.
-7. Test before asking for review.
-8. Avoid unrelated refactors inside feature work.
+AstraIQ exists to close that gap.
+
+We build technology that understands local challenges while aiming for global standards.
+
+Our goal is to make digital growth easier, cleaner, and more accessible for businesses that are ready to move forward.
 
 ---
 
-## Commit Style
+## The Future
 
-Use conventional commits where possible:
+AstraIQ is still early.
 
-```bash
-feat: add product filters
-fix: resolve dashboard loading state
-refactor: simplify table state handling
-docs: update onboarding guide
-chore: update dependencies
-```
+That gives us room to build carefully.
 
-Keep commit messages direct.
+Our goal is not to become another software company.
 
-Avoid vague commits like:
+Our goal is to build a strong technology ecosystem — one product, one system, and one business problem at a time.
 
-```bash
-fix stuff
-updates
-changes
-final
-```
+We are here to build with discipline.
+
+We are here to build for impact.
+
+We are here to build what lasts.
 
 ---
 
-## Pull Request Checklist
-
-Before opening a pull request, check:
-
-- [ ] The change solves the intended problem.
-- [ ] Scope is focused.
-- [ ] Code is readable.
-- [ ] No unrelated changes included.
-- [ ] Errors are handled properly.
-- [ ] UI states are covered when relevant.
-- [ ] Docs are updated when needed.
-- [ ] The app builds successfully.
-- [ ] The change was tested manually or automatically.
-
----
-
-## Code Review Culture
-
-Code review is not personal.
-
-It is how we protect the product.
-
-Good reviews should be:
-
-- Specific.
-- Respectful.
-- Practical.
-- Focused on impact.
-- Clear about required changes.
-
-When reviewing, explain why.
-
-When receiving review, do not defend weak code.
-
-Improve it.
-
----
-
-## Documentation
-
-Documentation should exist where it helps the team move faster.
-
-Good documentation explains:
-
-- What the system does.
-- Why it exists.
-- How to run it.
-- How to configure it.
-- Known trade-offs.
-- Future notes.
-
-Keep docs short when possible.
-
-Keep them useful always.
-
----
-
-## Security Mindset
-
-Never commit secrets.
-
-Never expose private implementation details publicly.
-
-Never assume internal tools are safe by default.
-
-Use environment variables and secret managers correctly.
-
-Be careful with:
-
-- Tokens.
-- API keys.
-- Database URLs.
-- User data.
-- Auth flows.
-- Production credentials.
-
-Security is not a later task.
-
-It is part of the work.
-
----
-
-## Team Expectations
-
-AstraIQ needs people who:
-
-- Take ownership.
-- Think clearly.
-- Communicate honestly.
-- Respect deadlines.
-- Ask good questions.
-- Care about quality.
-- Avoid unnecessary complexity.
-- Help the team move forward.
-
-You do not need to know everything.
-
-You do need to be reliable.
-
----
-
-## Final Words
-
-Welcome aboard.
-
-Build carefully.
-
-Ship thoughtfully.
-
-Think like an owner.
-
-> Simple systems win when they solve real problems well.
-
-—  
-**AstraIQ Team**
+**AstraIQ**  
+Building serious technology for ambitious businesses.
