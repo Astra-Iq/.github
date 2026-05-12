@@ -1,390 +1,254 @@
-# Welcome to the Astra IQ / ShopZoon Team 🙌
+# Welcome to AstraIQ Team
 
-Hey برو 👋  
-Welcome to **ShopZoon** — the main product we are building under the **Astra IQ** GitHub organization.
+Hey برو,
 
-ShopZoon is an e-commerce platform built for the Iraqi market. The goal is simple: help merchants launch, manage, and grow online stores without needing technical knowledge.
+Welcome to **AstraIQ**.
 
-Right now, our focus is **ShopZoon only**.
+AstraIQ is a technology organization focused on building serious, reliable, and well-designed software products. We care about clean engineering, thoughtful product decisions, and practical systems that can grow over time.
 
----
-
-## What We Are Building
-
-ShopZoon is a Shopify-like platform adapted for local merchants, local operations, and real business needs in Iraq.
-
-The product includes:
-
-- Store management
-- Product catalog management
-- Inventory management
-- Storefront APIs
-- Admin dashboards
-- Checkout and order flows
-- Template-driven storefronts
-- Merchant/project onboarding
-- Deployment workflows
-- Developer-friendly APIs for custom storefronts
-
-We are not trying to build every SoftRuby idea at once.  
-The current mission is to make **ShopZoon real, usable, and production-ready**.
+This document is a lightweight onboarding note for new team members.
 
 ---
 
-## Product Direction
+## What We Care About
 
-ShopZoon should feel:
+At AstraIQ, we believe:
 
-- Serious
-- Reliable
-- Modern
-- Local-market aware
-- Easy for merchants
-- Flexible for developers
-- Strong enough to become infrastructure
+- Software should solve real problems.
+- Products should feel simple, even when the system behind them is complex.
+- Code should be clean, maintainable, and easy to reason about.
+- Strong engineering culture beats rushed execution.
+- Small teams can build serious products when priorities are clear.
 
-The first priority is not building a giant platform.  
-The first priority is building a strong commerce core that real stores can use.
+We are not trying to build noisy software.
 
----
-
-## Current GitHub Scope
-
-Our active repositories are under:
-
-```txt
-https://github.com/Astra-Iq
-```
-
-Current ShopZoon repositories:
-
-```txt
-Astra-Iq/kinetic
-Astra-Iq/Admin-UI-Engine
-```
-
-### `Astra-Iq/kinetic`
-
-This is the backend/API side of ShopZoon.
-
-It contains the core API, business logic, modules, integrations, and backend infrastructure needed to power ShopZoon.
-
-Key responsibilities:
-
-- ShopZoon backend API
-- Projects / merchants
-- Store data models
-- Products and taxonomy
-- Inventory logic
-- Orders and checkout logic
-- API contracts
-- OpenAPI export
-- Authentication integration
-- Shared backend packages
-- Common error handling
-
-### `Astra-Iq/Admin-UI-Engine`
-
-This is the admin dashboard engine.
-
-It powers the internal and merchant-facing dashboard experience for managing ShopZoon stores.
-
-Key responsibilities:
-
-- Dashboard UI
-- CRUD screens
-- Forms
-- Tables
-- Relations management
-- Store management views
-- Polaris-style admin experience
-- API-driven dashboard generation
-- Authentication UI integration
-- Localization-ready frontend structure
+We are trying to build useful software.
 
 ---
 
-## Current Tech Stack
+## Our Mission
 
-### Backend
+> To build high-quality digital products and infrastructure for real businesses, starting from our local market and growing with discipline.
 
-Used in `Astra-Iq/kinetic`:
+AstraIQ is still early.
 
-- Rust
-- Axum
-- SQLx
-- PostgreSQL
-- Tokio
-- Utoipa / OpenAPI tooling
-- Validator
-- JWT authentication
-- Reqwest
-- AWS S3-compatible storage SDK
-- Shared internal crates
+That means every decision matters.
 
-Backend principles:
-
-- Type-safe APIs
-- Clear module boundaries
-- Explicit errors
-- Strong validation
-- OpenAPI-first compatibility
-- Production-ready database access
-- No unnecessary abstraction
+Every feature, every commit, every design choice, and every deployment should move the product forward.
 
 ---
 
-### Admin Dashboard
+## How We Work
 
-Used in `Astra-Iq/Admin-UI-Engine`:
+We value:
 
-- Vue 3
-- Vite
-- TypeScript
-- Vue Router
-- Vue I18n
-- TanStack Vue Query
-- TanStack Vue Table
-- Zod
-- ofetch
-- Logto Vue SDK
-- Polaris Vue components
+- Clear ownership.
+- Simple solutions first.
+- Practical trade-offs.
+- Fast feedback.
+- Clean pull requests.
+- Good documentation.
+- Respectful technical disagreement.
 
-Frontend principles:
+We do not optimize for looking busy.
 
-- Clean admin UX
-- API-driven screens
-- Reusable CRUD patterns
-- Strong form validation
-- Predictable data fetching
-- No Axios
-- Merchant-friendly workflows
+We optimize for shipping useful work.
 
 ---
 
-## What We Are Not Working On Right Now
+## Engineering Principles
 
-These are not current focus areas:
+### 1. Keep Scope Clear
 
-- Smart home infrastructure
-- IoT dashboards
-- Generic SoftRuby platform features
-- Multi-product ecosystem planning
-- Unrelated SaaS ideas
-- Over-engineered project management tools
-- Premature marketplace features
+Before building anything, understand:
 
-These may return later.  
-For now, everything should serve **ShopZoon**.
+- What problem are we solving?
+- Who needs this?
+- Why now?
+- What is out of scope?
+- What does “done” mean?
 
----
-
-## Engineering Values
-
-At Astra IQ, we care about building software that is practical, clean, and maintainable.
-
-We believe:
-
-- Software should solve real business problems.
-- Developers should understand the system quickly.
-- APIs should be predictable.
-- Dashboards should reduce work, not add confusion.
-- Infrastructure should be boring where possible.
-- Complexity must earn its place.
-- Small teams can ship serious products.
+Unclear work should be clarified before implementation.
 
 ---
 
-## How To Think About ShopZoon
+### 2. Build Small, Then Improve
 
-ShopZoon has two users:
+Prefer small, safe iterations.
 
-### 1. Merchants
+Avoid over-engineering early.
 
-Merchants need simple tools to run their store.
-
-They care about:
-
-- Adding products
-- Managing stock
-- Receiving orders
-- Using coupons
-- Editing store content
-- Seeing useful data
-- Launching fast
-- Avoiding technical complexity
-
-### 2. Developers
-
-Developers may use ShopZoon APIs to build custom storefronts and custom commerce experiences.
-
-They care about:
-
-- Stable APIs
-- Clear documentation
-- Flexible querying
-- Custom API views
-- Storefront-ready data
-- Clean authentication
-- Predictable response formats
-
-Good ShopZoon features should respect both sides.
+A simple working feature is usually better than a perfect unfinished system.
 
 ---
 
-## Contribution Workflow
+### 3. Protect Product Quality
 
-### 1. Clone the repositories
+Every change should respect:
+
+- User experience.
+- Security.
+- Maintainability.
+- Performance.
+- Data integrity.
+- Future extensibility.
+
+Shipping fast is good.
+
+Shipping fragile work is not.
+
+---
+
+### 4. Communicate Early
+
+Raise blockers early.
+
+Ask questions early.
+
+Share risks early.
+
+No one should disappear with unclear work.
+
+---
+
+## Repository Expectations
+
+When contributing:
+
+1. Read the relevant `README.md` or documentation first.
+2. Create focused branches.
+3. Keep commits clear.
+4. Open small pull requests when possible.
+5. Explain the reason behind the change.
+6. Include screenshots or examples for UI changes.
+7. Test before asking for review.
+8. Avoid unrelated refactors inside feature work.
+
+---
+
+## Commit Style
+
+Use conventional commits where possible:
 
 ```bash
-git clone git@github.com:Astra-Iq/kinetic.git
-git clone git@github.com:Astra-Iq/Admin-UI-Engine.git
+feat: add product filters
+fix: resolve dashboard loading state
+refactor: simplify table state handling
+docs: update onboarding guide
+chore: update dependencies
 ```
 
-### 2. Work in the correct repository
+Keep commit messages direct.
 
-Backend changes go in:
+Avoid vague commits like:
 
-```txt
-Astra-Iq/kinetic
+```bash
+fix stuff
+updates
+changes
+final
 ```
 
-Dashboard changes go in:
+---
 
-```txt
-Astra-Iq/Admin-UI-Engine
-```
+## Pull Request Checklist
 
-### 3. Keep scope clear
+Before opening a pull request, check:
 
-Before starting work, define:
-
-- What problem this solves
-- Who needs it
-- Backend responsibility
-- Dashboard responsibility
-- API contract changes
-- Database changes
-- Migration needs
-- Acceptance criteria
-
-No vague work should enter active development.
+- [ ] The change solves the intended problem.
+- [ ] Scope is focused.
+- [ ] Code is readable.
+- [ ] No unrelated changes included.
+- [ ] Errors are handled properly.
+- [ ] UI states are covered when relevant.
+- [ ] Docs are updated when needed.
+- [ ] The app builds successfully.
+- [ ] The change was tested manually or automatically.
 
 ---
 
-## Feature Ownership Guide
+## Code Review Culture
 
-| Feature | Backend | Dashboard |
-|---|---|---|
-| Products | `kinetic` | `Admin-UI-Engine` |
-| Categories / taxonomy | `kinetic` | `Admin-UI-Engine` |
-| Inventory | `kinetic` | `Admin-UI-Engine` |
-| Orders | `kinetic` | `Admin-UI-Engine` |
-| Coupons | `kinetic` | `Admin-UI-Engine` |
-| Guests checkout | `kinetic` | `Admin-UI-Engine` only when UI is needed |
-| Ratings | `kinetic` | `Admin-UI-Engine` for moderation/visibility |
-| Banners | `kinetic` | `Admin-UI-Engine` |
-| Wishlist | `kinetic` | `Admin-UI-Engine` optional/admin visibility |
-| Custom API views | `kinetic` | `Admin-UI-Engine` for configuration UI |
-| Storefront APIs | `kinetic` | Usually not dashboard-owned |
-| Admin CRUD screens | API support only | `Admin-UI-Engine` |
+Code review is not personal.
 
----
+It is how we protect the product.
 
-## Coding Expectations
+Good reviews should be:
 
-### Backend expectations
+- Specific.
+- Respectful.
+- Practical.
+- Focused on impact.
+- Clear about required changes.
 
-- Keep modules focused.
-- Validate inputs at the boundary.
-- Use shared error handling.
-- Avoid leaking raw database errors.
-- Keep API responses consistent.
-- Write migrations carefully.
-- Keep OpenAPI output accurate.
-- Prefer explicit domain models over generic JSON blobs.
+When reviewing, explain why.
 
-### Dashboard expectations
+When receiving review, do not defend weak code.
 
-- Build reusable admin patterns.
-- Keep forms predictable.
-- Use typed schemas where possible.
-- Avoid duplicated table/form logic.
-- Use API contracts as the source of truth.
-- Keep UX close to proven commerce admin patterns.
-- Avoid visual noise.
+Improve it.
 
 ---
 
-## Product Priorities
+## Documentation
 
-Current priorities should stay close to the commerce core:
+Documentation should exist where it helps the team move faster.
 
-1. Merchant/project onboarding
-2. Product management
-3. Taxonomy and product attributes
-4. Inventory and stock state
-5. Storefront API stability
-6. Cart and checkout
-7. Orders
-8. Coupons
-9. Banners and merchandising
-10. Ratings and wishlist
-11. Custom API views for developer-built storefronts
+Good documentation explains:
 
-Anything outside this list should be questioned before implementation.
+- What the system does.
+- Why it exists.
+- How to run it.
+- How to configure it.
+- Known trade-offs.
+- Future notes.
 
----
+Keep docs short when possible.
 
-## Decision Rules
-
-When unsure, use these rules:
-
-### Does this help stores sell?
-
-If yes, it may belong in ShopZoon.
-
-### Does this improve merchant workflow?
-
-If yes, it may belong in the dashboard.
-
-### Does this improve storefront developers?
-
-If yes, it may belong in the backend/storefront API.
-
-### Does this belong to future SoftRuby ecosystem ideas?
-
-If yes, defer it.
-
-### Does this add complexity before product-market proof?
-
-If yes, reduce scope.
+Keep them useful always.
 
 ---
 
-## Team Culture
+## Security Mindset
 
-We move with focus.
+Never commit secrets.
 
-We prefer:
+Never expose private implementation details publicly.
 
-- Clear tasks
-- Small pull requests
-- Practical architecture
-- Honest trade-offs
-- Strong defaults
-- Fast feedback
-- Production mindset
+Never assume internal tools are safe by default.
 
-We avoid:
+Use environment variables and secret managers correctly.
 
-- Building everything at once
-- Premature abstractions
-- Feature creep
-- Unclear ownership
-- Random JSON structures
-- Dashboard bloat
-- Copying big platforms without understanding why
+Be careful with:
+
+- Tokens.
+- API keys.
+- Database URLs.
+- User data.
+- Auth flows.
+- Production credentials.
+
+Security is not a later task.
+
+It is part of the work.
+
+---
+
+## Team Expectations
+
+AstraIQ needs people who:
+
+- Take ownership.
+- Think clearly.
+- Communicate honestly.
+- Respect deadlines.
+- Ask good questions.
+- Care about quality.
+- Avoid unnecessary complexity.
+- Help the team move forward.
+
+You do not need to know everything.
+
+You do need to be reliable.
 
 ---
 
@@ -392,14 +256,13 @@ We avoid:
 
 Welcome aboard.
 
-ShopZoon is the focus.  
-Merchants are the customer.  
-Developers are part of the platform.  
-The goal is to ship something real, stable, and valuable.
+Build carefully.
 
-Build carefully.  
-Ship clearly.  
-Keep the system understandable.
+Ship thoughtfully.
+
+Think like an owner.
+
+> Simple systems win when they solve real problems well.
 
 —  
-**Astra IQ / ShopZoon Team**
+**AstraIQ Team**
